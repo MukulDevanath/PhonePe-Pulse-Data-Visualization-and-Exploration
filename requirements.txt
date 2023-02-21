@@ -1,2 +1,4 @@
-streamlit
-pandas
+mysql_connector_repackaged==0.3.1
+pandas==1.5.3
+plotly==5.13.0
+streamlit==1.17.0
