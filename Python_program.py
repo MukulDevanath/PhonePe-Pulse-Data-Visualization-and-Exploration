@@ -25,7 +25,7 @@ with col5:
 option1 = option1.lower()
 option2 = option2.lower()
 
-db_connection = connection.connect(host="localhost", database='PhonePe', user="root", password="**********")
+db_connection = connection.connect(host="localhost", database='PhonePe', user="root", password="Ferrari488Pi!")
 db_cursor = db_connection.cursor()
 db_cursor.execute('SELECT * FROM users')
 table_rows = db_cursor.fetchall()
